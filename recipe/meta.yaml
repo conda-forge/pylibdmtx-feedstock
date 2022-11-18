@@ -1,13 +1,13 @@
 {% set name = "pylibdmtx" %}
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: "https://github.com/NaturalHistoryMuseum/{{ name }}/archive/v{{ version }}.tar.gz"
-  sha256: "502b6e40a88bd62a08086cd679f806f8e028c0018a9104d344e5fe665f5db936"
+  url: https://github.com/NaturalHistoryMuseum/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 137b170597a15d26c40a37192821eaa2e69e8f666b115fcf68054f0bc35e35d6
 
 build:
   number: 0
